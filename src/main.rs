@@ -3,7 +3,7 @@ use clap::Parser;
 use image::{DynamicImage, GenericImageView, Rgba, RgbaImage, imageops};
 
 #[derive(Parser)]
-#[command(name = "ASCII Generator", about = "Converts an image to ASCII art")]
+#[command(name = "ASCII filter", about = "Generates an image made of ASCII")]
 struct Args {
     input_path: String,
 

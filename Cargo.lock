@@ -3,16 +3,6 @@
 version = 4
 
 [[package]]
-name = "ASCIIcapture"
-version = "0.1.0"
-dependencies = [
- "ab_glyph",
- "clap",
- "image",
- "imageproc",
-]
-
-[[package]]
 name = "ab_glyph"
 version = "0.2.32"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1179,6 +1169,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8b61555105d6a9bf98797c063c362a1d24ed8ab0431655e38f1cf51e52089551"
 dependencies = [
  "rustfft",
+]
+
+[[package]]
+name = "rusted_ascii_filter"
+version = "0.1.0"
+dependencies = [
+ "ab_glyph",
+ "clap",
+ "image",
+ "imageproc",
 ]
 
 [[package]]
