@@ -4,9 +4,6 @@ CLI-based image to ASCII generator written in Rust.
 ## What it does
 You can think of it as a filter, as the final product is another image. It converts the original image to ASCII, then generates an image with the ASCII characters.
 
-## Building it from source
-To compile it, you must have a file `font.ttf` in the `/src` directory. It's recommended to use a monospaced font.
-
 ## Usage
 Just call the binary, if you have it installed globally, with the name of the file
 ```
