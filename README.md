@@ -26,19 +26,18 @@ rusted_ascii_filter image.png
 ### Example
 
 ```
-rusted_ascii_filter ducati.jpg -w 1280 -f 12
+rusted_ascii_filter ducati.jpg -w 1000 -f 12
 
 ```
 
-<img width="7025" height="3948" alt="wp4373670-ducati-panigale-v4r-wallpapers_ascii" src="https://github.com/user-attachments/assets/b211f9d4-4eec-44c9-bdd6-9d3ffc2c1316" />
+<img width="5488" height="3084" alt="ducati_ascii" src="https://github.com/user-attachments/assets/7d5d89e1-263a-4b99-93bc-0289992c2777" />
 
 ```
-rusted_ascii_filter ducati.jpg -w 600 -c 50
+rusted_ascii_filter ducati.jpg -w 600
 
 ```
 
-<img width="6586" height="3696" alt="wp4373670-ducati-panigale-v4r-wallpapers_ascii" src="https://github.com/user-attachments/assets/4f7a7b74-a3d7-4a39-9b1b-85966d7be96e" />
-
+<img width="6586" height="3696" alt="ducati_ascii" src="https://github.com/user-attachments/assets/90671f52-c7e6-4bc6-b099-e3494bf91a48" />
 
 Original image:
 <img width="3840" height="2160" alt="wp4373670-ducati-panigale-v4r-wallpapers" src="https://github.com/user-attachments/assets/c0f4a6f8-2174-4d7e-af64-a56ea99eb54d" />
