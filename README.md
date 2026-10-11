@@ -20,7 +20,7 @@ rusted_ascii_filter image.png
 
 ### Options
 * -w, --width: The width of the output in ASCII characters (Default: 1280).
-* -c, --contrast : Contrast adjustment applied before conversion (Default: 30.0).
+* -c, --contrast : Contrast adjustment applied before conversion (Default: 10.0).
 * -f, --font-size : Font size used to render the final ASCII image (Default: 24.0).
 
 ### Example

@@ -10,7 +10,7 @@ struct Args {
     #[arg(short, long, default_value_t = 1280)]
     width: u32,
 
-    #[arg(short, long, default_value_t = 30.0)]
+    #[arg(short, long, default_value_t = 10.0)]
     contrast: f32,
 
     #[arg(short, long, default_value_t = 24.0)]
@@ -71,7 +71,7 @@ fn to_ascii(
 
     let calc_height = (width as f32 / aspect_ratio / font_ratio).round() as u32;
 
-    let ascii_chars = b" .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$";
+    let ascii_chars = b" `'.-_,:~\"^!;+></\\?c()lvLit*|zJxrf1{j}Y][unCIoaZkhXU&qpdbmw#O80%BQ$@MW";
     let resized = img.resize_exact(width, calc_height, imageops::FilterType::Lanczos3);
     let imgbw = resized.to_luma8();
 
